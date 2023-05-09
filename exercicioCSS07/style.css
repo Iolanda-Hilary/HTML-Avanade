@@ -1,0 +1,113 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7a6b6b;
+    color:#8db8b9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color:#E82C0C;
+    color: #c2c9be;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-family: Snell Roundhand, cursive;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #ee82b8;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section li {
+    background-color: #FF540D;
+    border: 1px solid #363434;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    width: 30%;
+  }
+  
+  section li:last-child {
+    margin-right: 0;
+  }
+  
+  section li img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  section li h3 {
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+  section li p {
+    margin: 10px;
+  }
+  
+  section li button {
+    background-color: #d890d8;
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 80%;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #ccc;
+    color: #666;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+  }
