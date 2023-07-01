@@ -1,0 +1,141 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #51802E;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+header {
+  background-color: #6baa3a;
+  padding: 20px;
+  text-align: center;
+
+}
+
+header h1 {
+  font-size: 66px;
+  color: #FFFFFF;
+  font-size: 28px;
+  margin: 0;
+}
+
+header nav ul {
+  text-align: center;
+  margin-top: 20px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+nav ul li a:hover{
+  background-color: #678054;
+  padding: 10px;
+  border-radius: 14px;
+  color: antiquewhite;
+  
+}
+
+header nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+#banner {
+  background-color: #CEFFA8;
+  padding: 50px;
+  text-align: center;
+}
+
+#banner p {
+  font-size: 40px;
+  color: #51802E;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #678054;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #83CC4A;
+}
+
+#about {
+  text-align: center;
+  padding: 40px;
+  background-color: #FFFFFF;
+  color: #51802E;
+}
+
+#about p {
+  margin-bottom: 20px;
+}
+
+
+#joinForm {
+
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#joinForm label {
+  display: block;
+  margin-top: 20px;
+}
+
+#joinForm input[type="text"],
+#joinForm input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #678054;
+}
+
+
+footer {
+  background-color: #78b946;
+  padding: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  #banner p {
+    font-size: 40px;
+  }
+
+  #about {
+    padding: 20px;
+  }
+}
+
+fieldset {
+  text-align: center;
+  padding: px; 
+}
+legend {
+  text-align: center;}
